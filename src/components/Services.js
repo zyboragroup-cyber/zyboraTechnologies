@@ -3,7 +3,10 @@ import img from '../images/web.svg';
 import img2 from '../images/app.svg';
 import img3 from '../images/hosting.svg';
 import img4 from '../images/consultation.svg';
-
+import cloud from '../images/cloud.png';
+import Erp from '../images/erp.png';
+import chatbot from '../images/chatbot.png';
+import Seo from '../images/seo.png'
 const Services = () => {
 
     return (
@@ -30,7 +33,42 @@ const Services = () => {
                                     </p>
                                 </div>
                             </div>
-
+                            <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+    <div className="m-2 text-justify text-sm">
+        <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={chatbot} />
+        <h2 className="font-semibold my-4 text-2xl text-center">AI & Automation Solutions</h2>
+        <p className="text-md font-medium">
+            We help businesses automate workflows using Artificial Intelligence, chatbots, process automation, and smart digital solutions to improve productivity.
+        </p>
+    </div>
+</div>
+<div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+    <div className="m-2 text-justify text-sm">
+        <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={cloud} />
+        <h2 className="font-semibold my-4 text-2xl text-center">Cloud & DevOps Services</h2>
+        <p className="text-md font-medium">
+            We provide cloud deployment, server management, CI/CD pipelines, and scalable infrastructure solutions for modern businesses.
+        </p>
+    </div>
+</div>
+<div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+    <div className="m-2 text-justify text-sm">
+        <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={Erp} />
+        <h2 className="font-semibold my-4 text-2xl text-center">ERP & CRM Development</h2>
+        <p className="text-md font-medium">
+            Custom ERP and CRM systems designed to streamline operations, manage customers, track sales, and improve business efficiency.
+        </p>
+    </div>
+</div>
+<div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+    <div className="m-2 text-justify text-sm">
+        <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={Seo} />
+        <h2 className="font-semibold my-4 text-2xl text-center">Digital Marketing & SEO, GMB</h2>
+        <p className="text-md font-medium">
+            Grow your online presence through SEO,GMB social media marketing, paid advertising, content marketing, and lead generation strategies.
+        </p>
+    </div>
+</div>
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
