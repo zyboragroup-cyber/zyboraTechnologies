@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import Logo from '../images/logo.png'
-import { FaPhoneAlt,FaEnvelope} from "react-icons/fa";
+import {FaEnvelope} from "react-icons/fa";
 
 const Footer = () => {
     return (
